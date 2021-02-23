@@ -1,0 +1,16 @@
+<items>
+    <item>
+        <title>title1</title>
+        <textBody>
+           <p>asdasd</p> 
+        </textBody>
+    </item>
+    <item>
+        <title>title2</title>
+        <textBody>text2</textBody>
+    </item>
+    <item>
+        <title>title3</title>
+        <textBody>text3</textBody>
+    </item>
+</items>
