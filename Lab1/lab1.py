@@ -103,7 +103,6 @@ def periodic(hour):
 
 
 if __name__ == "__main__":
-    
     print('0.init\n1.collect data')
     choise=int(input())
     if choise == 0:

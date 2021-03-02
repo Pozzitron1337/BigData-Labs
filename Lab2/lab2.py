@@ -20,6 +20,12 @@ def parse_component(item,component):
         return regex_result[0]
     else:
         return ""
+def parse_source(link):
+    regex_result=re.findall(r'https?://(.*?)/',link)
+    if len(regex_result)>0:
+        return regex_result[0]
+    else:
+        return ""
 
 def parse_items(filename):
     items=prepare_xml(filename)
@@ -29,20 +35,20 @@ def parse_items(filename):
         description=parse_component(item,'description')
         pubDate=parse_component(item,'pubDate')
         link=parse_component(item,'link')
+        source=parse_source(link)
         item_dictionary={
             "title":title,
             "textBody":description,
-            "source":"Компьютерное обозрение",
-            "pubDate":pubDate,
-            "URL":link
+            "source": source,
+            "pubDate": pubDate,
+            "URL": link
         }
-        item_json=json.dumps(item_dictionary,indent = 5,ensure_ascii=False)
+        item_json=json.dumps(item_dictionary,indent = len(item_dictionary),ensure_ascii=False)
         file.write(item_json+",\n")
         file.flush()
         
-        
-
-
 if __name__ == "__main__":
     parse_items("rss_feeds.xml")
+    
+    
 

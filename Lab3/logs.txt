@@ -1,0 +1,84 @@
+[2021-03-02T22:40:23,543][INFO ][o.e.n.Node               ] [ippolit-PC] version[7.11.1], pid[17865], build[default/tar/ff17057114c2199c9c1bbecc727003a907c0db7a/2021-02-15T13:44:09.394032Z], OS[Linux/5.0.0-32-generic/amd64], JVM[AdoptOpenJDK/OpenJDK 64-Bit Server VM/15.0.1/15.0.1+9]
+[2021-03-02T22:40:23,548][INFO ][o.e.n.Node               ] [ippolit-PC] JVM home [/home/ippolit/pythonProjects/BigData/elasticsearch-7.11.1/jdk], using bundled JDK [true]
+[2021-03-02T22:40:23,548][INFO ][o.e.n.Node               ] [ippolit-PC] JVM arguments [-Xshare:auto, -Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -XX:+ShowCodeDetailsInExceptionMessages, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dio.netty.allocator.numDirectArenas=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.locale.providers=SPI,COMPAT, -Xms2g, -Xmx2g, -XX:+UseG1GC, -Djava.io.tmpdir=/tmp/elasticsearch-2605837766347725064, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -XX:MaxDirectMemorySize=1073741824, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Des.path.home=/home/ippolit/pythonProjects/BigData/elasticsearch-7.11.1, -Des.path.conf=/home/ippolit/pythonProjects/BigData/elasticsearch-7.11.1/config, -Des.distribution.flavor=default, -Des.distribution.type=tar, -Des.bundled_jdk=true]
+[2021-03-02T22:40:26,617][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [aggs-matrix-stats]
+[2021-03-02T22:40:26,617][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [analysis-common]
+[2021-03-02T22:40:26,617][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [constant-keyword]
+[2021-03-02T22:40:26,618][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [flattened]
+[2021-03-02T22:40:26,618][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [frozen-indices]
+[2021-03-02T22:40:26,618][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [ingest-common]
+[2021-03-02T22:40:26,619][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [ingest-geoip]
+[2021-03-02T22:40:26,619][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [ingest-user-agent]
+[2021-03-02T22:40:26,619][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [kibana]
+[2021-03-02T22:40:26,620][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [lang-expression]
+[2021-03-02T22:40:26,620][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [lang-mustache]
+[2021-03-02T22:40:26,620][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [lang-painless]
+[2021-03-02T22:40:26,621][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [mapper-extras]
+[2021-03-02T22:40:26,621][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [mapper-version]
+[2021-03-02T22:40:26,621][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [parent-join]
+[2021-03-02T22:40:26,622][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [percolator]
+[2021-03-02T22:40:26,622][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [rank-eval]
+[2021-03-02T22:40:26,622][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [reindex]
+[2021-03-02T22:40:26,623][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [repositories-metering-api]
+[2021-03-02T22:40:26,623][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [repository-url]
+[2021-03-02T22:40:26,623][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [search-business-rules]
+[2021-03-02T22:40:26,624][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [searchable-snapshots]
+[2021-03-02T22:40:26,624][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [spatial]
+[2021-03-02T22:40:26,624][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [transform]
+[2021-03-02T22:40:26,624][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [transport-netty4]
+[2021-03-02T22:40:26,625][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [unsigned-long]
+[2021-03-02T22:40:26,625][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [vectors]
+[2021-03-02T22:40:26,625][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [wildcard]
+[2021-03-02T22:40:26,626][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-aggregate-metric]
+[2021-03-02T22:40:26,626][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-analytics]
+[2021-03-02T22:40:26,626][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-async]
+[2021-03-02T22:40:26,627][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-async-search]
+[2021-03-02T22:40:26,627][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-autoscaling]
+[2021-03-02T22:40:26,627][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-ccr]
+[2021-03-02T22:40:26,627][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-core]
+[2021-03-02T22:40:26,628][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-data-streams]
+[2021-03-02T22:40:26,628][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-deprecation]
+[2021-03-02T22:40:26,628][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-enrich]
+[2021-03-02T22:40:26,629][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-eql]
+[2021-03-02T22:40:26,629][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-fleet]
+[2021-03-02T22:40:26,629][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-graph]
+[2021-03-02T22:40:26,630][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-identity-provider]
+[2021-03-02T22:40:26,630][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-ilm]
+[2021-03-02T22:40:26,631][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-ingest]
+[2021-03-02T22:40:26,631][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-logstash]
+[2021-03-02T22:40:26,631][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-ml]
+[2021-03-02T22:40:26,632][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-monitoring]
+[2021-03-02T22:40:26,632][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-ql]
+[2021-03-02T22:40:26,632][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-rollup]
+[2021-03-02T22:40:26,633][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-runtime-fields]
+[2021-03-02T22:40:26,633][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-security]
+[2021-03-02T22:40:26,633][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-sql]
+[2021-03-02T22:40:26,634][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-stack]
+[2021-03-02T22:40:26,634][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-voting-only-node]
+[2021-03-02T22:40:26,634][INFO ][o.e.p.PluginsService     ] [ippolit-PC] loaded module [x-pack-watcher]
+[2021-03-02T22:40:26,635][INFO ][o.e.p.PluginsService     ] [ippolit-PC] no plugins loaded
+[2021-03-02T22:40:26,700][INFO ][o.e.e.NodeEnvironment    ] [ippolit-PC] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [491gb], net total_space [915.3gb], types [ext4]
+[2021-03-02T22:40:26,701][INFO ][o.e.e.NodeEnvironment    ] [ippolit-PC] heap size [2gb], compressed ordinary object pointers [true]
+[2021-03-02T22:40:26,783][INFO ][o.e.n.Node               ] [ippolit-PC] node name [ippolit-PC], node ID [V1XfH9cZQwWdKHbB0DzfeA], cluster name [elasticsearch], roles [transform, master, remote_cluster_client, data, ml, data_content, data_hot, data_warm, data_cold, ingest]
+[2021-03-02T22:40:31,140][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [ippolit-PC] [controller/18066] [Main.cc@117] controller (64 bit): Version 7.11.1 (Build b7aec245e3d54f) Copyright (c) 2021 Elasticsearch BV
+[2021-03-02T22:40:31,640][INFO ][o.e.x.s.a.s.FileRolesStore] [ippolit-PC] parsed [0] roles from file [/home/ippolit/pythonProjects/BigData/elasticsearch-7.11.1/config/roles.yml]
+[2021-03-02T22:40:32,884][INFO ][o.e.t.NettyAllocator     ] [ippolit-PC] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2021-03-02T22:40:32,952][INFO ][o.e.d.DiscoveryModule    ] [ippolit-PC] using discovery type [zen] and seed hosts providers [settings]
+[2021-03-02T22:40:33,571][INFO ][o.e.g.DanglingIndicesState] [ippolit-PC] gateway.auto_import_dangling_indices is disabled, dangling indices will not be automatically detected or imported and must be managed manually
+[2021-03-02T22:40:34,088][INFO ][o.e.n.Node               ] [ippolit-PC] initialized
+[2021-03-02T22:40:34,088][INFO ][o.e.n.Node               ] [ippolit-PC] starting ...
+[2021-03-02T22:40:34,186][INFO ][o.e.x.s.c.PersistentCache] [ippolit-PC] persistent cache index loaded
+[2021-03-02T22:40:34,315][INFO ][o.e.t.TransportService   ] [ippolit-PC] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2021-03-02T22:40:35,062][WARN ][o.e.b.BootstrapChecks    ] [ippolit-PC] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65535]
+[2021-03-02T22:40:35,063][WARN ][o.e.b.BootstrapChecks    ] [ippolit-PC] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2021-03-02T22:40:35,063][WARN ][o.e.b.BootstrapChecks    ] [ippolit-PC] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2021-03-02T22:40:35,064][INFO ][o.e.c.c.Coordinator      ] [ippolit-PC] cluster UUID [Y6er5yQjQwq1sHed3OtYdA]
+[2021-03-02T22:40:35,073][INFO ][o.e.c.c.ClusterBootstrapService] [ippolit-PC] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2021-03-02T22:40:35,268][INFO ][o.e.c.s.MasterService    ] [ippolit-PC] elected-as-master ([1] nodes joined)[{ippolit-PC}{V1XfH9cZQwWdKHbB0DzfeA}{QkQPzRj7S9SqCaB7RWe5ig}{127.0.0.1}{127.0.0.1:9300}{cdhilmrstw}{ml.machine_memory=16709578752, xpack.installed=true, transform.node=true, ml.max_open_jobs=20, ml.max_jvm_size=2147483648} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 20, version: 110, delta: master node changed {previous [], current [{ippolit-PC}{V1XfH9cZQwWdKHbB0DzfeA}{QkQPzRj7S9SqCaB7RWe5ig}{127.0.0.1}{127.0.0.1:9300}{cdhilmrstw}{ml.machine_memory=16709578752, xpack.installed=true, transform.node=true, ml.max_open_jobs=20, ml.max_jvm_size=2147483648}]}
+[2021-03-02T22:40:35,573][INFO ][o.e.c.s.ClusterApplierService] [ippolit-PC] master node changed {previous [], current [{ippolit-PC}{V1XfH9cZQwWdKHbB0DzfeA}{QkQPzRj7S9SqCaB7RWe5ig}{127.0.0.1}{127.0.0.1:9300}{cdhilmrstw}{ml.machine_memory=16709578752, xpack.installed=true, transform.node=true, ml.max_open_jobs=20, ml.max_jvm_size=2147483648}]}, term: 20, version: 110, reason: Publication{term=20, version=110}
+[2021-03-02T22:40:35,605][INFO ][o.e.h.AbstractHttpServerTransport] [ippolit-PC] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2021-03-02T22:40:35,607][INFO ][o.e.n.Node               ] [ippolit-PC] started
+[2021-03-02T22:40:35,927][INFO ][o.e.l.LicenseService     ] [ippolit-PC] license [2eec35b0-6ab1-4d81-b50e-1bc8d37d86fa] mode [basic] - valid
+[2021-03-02T22:40:35,930][INFO ][o.e.x.s.s.SecurityStatusChangeListener] [ippolit-PC] Active license is now [BASIC]; Security is disabled
+[2021-03-02T22:40:35,934][INFO ][o.e.g.GatewayService     ] [ippolit-PC] recovered [1] indices into cluster_state
+[2021-03-02T22:40:37,670][INFO ][o.e.c.r.a.AllocationService] [ippolit-PC] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]]]).
